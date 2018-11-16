@@ -28,7 +28,7 @@ public class ExceptionHandlingWithSeleniumDemo {
 		System.out.println(" --> Password entered");
 
 		try {
-			WebElement actitimeLogo = driver.findElement(By.xpath("//img[contains(@src,'timer.gif')]"));
+			WebElement actitimeLogo = driver.findElement(By.xpath("//img[contains(@src,'timexr.gif')]"));
 			Boolean flag = actitimeLogo.isDisplayed();
 			if (flag == true) {
 				System.out.println(" --> Logo is displayed properly");
